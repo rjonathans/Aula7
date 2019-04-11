@@ -3,7 +3,6 @@ package br.com.digitalhouse;
 public class Aviao implements Voador{
     private String tipoDeAsa;
     private int qtdAssentos;
-
     public Aviao(){
     }
 
@@ -24,8 +23,8 @@ public class Aviao implements Voador{
         return qtdAssentos;
     }
 
-    public void setQtdAssentos(int qtd) {
-        qtdAssentos = qtd;
+    public void setQtdAssentos(int quantidadeDeAssentos) {
+        qtdAssentos = quantidadeDeAssentos;
     }
 
     @Override
